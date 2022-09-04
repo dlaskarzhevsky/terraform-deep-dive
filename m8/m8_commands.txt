@@ -46,7 +46,13 @@ http://127.0.0.1:8080
 # Definition: Pipeline script from SCM
 # SCM: Git
 # Repo URL: YOUR_REPO_URL or https://github.com/ned1313/Deep-Dive-Terraform.git
-#                            https://github.com/dlaskarzhevsky/terraform-deep-dive.git - error fixed
+#                            https://github.com/dlaskarzhevsky/terraform-deep-dive.git
+
+# select main branch, not master!!!
+
+#[1m[31mError: [0m[0m[1mFailed to get existing workspaces: Get http://host.docker.internal:8500/v1/kv/networking/state/globo-primary-env:?keys=&separator=%2F: dial tcp: lookup host.docker.internal on 192.168.65.1:53: no such host[0m - error
+# host.docker.internal cannot be resolved for whatever reason
+
 # Script path: m8/networking/Jenkinsfile
 # Uncheck lightweight checkout
 
