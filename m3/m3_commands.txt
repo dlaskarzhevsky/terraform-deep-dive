@@ -14,7 +14,7 @@ terraform plan -out m3.tfplan
 terraform apply "m3.tfplan"
 
 # Now Jimmy ruins things
-
+asd 
 # Linux and MacOS: Run the junior_admin.sh script
 ./junior_admin.sh
 
